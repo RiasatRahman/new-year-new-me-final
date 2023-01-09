@@ -1,0 +1,250 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Ubunto&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.header__section {
+    position: relative;
+    height: 100vh;
+    width: 100vw;
+    background-image: url(images/banner2[367].png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.header__content {
+    position: absolute;
+    right: 0;
+    top: 25%;
+    padding-right: 20rem;
+    /* top:40%;
+    left:50%;
+    margin-top:-50px; /* this is half the height of your div*/
+    /* margin-left:-100px; this is half of width of your div */
+}
+
+.header__title h1 {
+    font-family: 'Ubunto', sans-serif;
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 1.2;
+    margin-bottom: 0.5rem;
+}
+
+.header__paragraph p {
+    font-family: 'Ubunto', sans-serif;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    line-height: 1.7;
+    font-size: 20px;
+    color: gray;
+    font-weight: 700;
+    margin-bottom: 2rem;
+}
+
+.header__btn .btn {
+    padding: 27px 30px;
+    background-color: #FF6E31;
+    color: white;
+    text-decoration: none;
+    font-family: 'Ubunto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 4px;
+    font-weight: 700;
+}
+
+.failers__section {
+    padding: 2rem;
+}
+
+
+.failers {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.failers__content {
+    padding: 10rem;
+}
+
+.failers__title h3 {
+    font-size: 3.3rem;
+    font-family: 'Ubunto', sans-serif;
+    font-weight: 700;
+    line-height: 1.2;
+    padding-bottom: 2rem;
+}
+
+.failers__paragraph p {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    font-family: 'Ubunto', sans-serif;
+    padding-bottom: 1.8rem;
+    color: gray;
+    font-weight: 700;
+
+}
+
+.tick div {
+    display: flex;
+    padding-bottom: 1rem;
+}
+
+.tick div p {
+    font-size: 1.3rem;
+    color: gray;
+}
+
+.tick div i {
+    padding-right: 1rem;
+    color: #00FFD1;
+    font-size: 2rem;
+}
+
+.plans__section {
+    padding: 3rem;
+}
+
+.plans__title {
+    text-align: center;
+}
+
+.plans__title h2 {
+    font-family: 'Ubunto', sans-serif;
+    font-size: 2.5rem;
+    font-weight: bold;
+    line-height: 0;
+    margin-bottom: 3rem;
+}
+
+.plans__main_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.content {
+    padding: 4rem;
+}
+
+.content h1 {
+    font-size: 2.7rem;
+    padding-top: 1rem;
+    padding-bottom: 0.7rem;
+    font-family: 'Ubunto', sans-serif;
+    font-weight: bold;
+}
+
+.content p {
+    font-size: 1.7rem;
+    color: gray;
+    font-weight: 300;
+    font-family: 'Ubunto', sans-serif;
+}
+
+.call__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.call__content {
+    margin: 3rem;
+    padding: 5rem;
+    background-image: url(images/pexels-energepiccom-110471.jpg);
+    filter: brightness(90%);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    width: 1400px;
+    border-radius: 5px;
+}
+
+.call__content h1 {
+    font-size: 3rem;
+    color: white;
+    font-weight: bold;
+    filter: brightness(100%);
+    margin-bottom: 1.5rem;
+}
+
+.btn-2 {
+    padding: 27px 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubunto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
+
+.footer {
+    padding: 5rem;
+    background-color: black;
+    color: white;
+}
+
+.footer__section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.div1 {
+    padding-right: 50rem;
+}
+
+.div1 h1 {
+    font-size: 3rem;
+    font-family: 'Ubunto', sans-serif;
+    font-weight: bold;
+    padding-bottom: 1rem;
+}
+
+.div1 p {
+    font-size: 1.2rem;
+    font-weight: 500;
+    line-height: 1.5;
+    padding-bottom: 1rem;
+    font-family: 'Ubunto', sans-serif;
+}
+
+.pic1 {
+    padding: 0.3rem;
+}
+
+
+.div2 h2 {
+    font-size: 2rem;
+    font-family: 'Ubunto', sans-serif;
+    font-weight: 600;
+}
+
+.div2 input {
+    margin-bottom: 2rem;
+    padding: 1rem 1.5rem;
+    font-size: 1.5rem;
+    font-family: 'Ubunto', sans-serif;
+    border-radius: 5px;
+}
+
+.btn-3 {
+    margin-top: 2rem;
+    padding: 20px 30px;
+    background-color: white;
+    color: black;
+    text-decoration: none;
+    font-family: 'Ubunto', sans-serif;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    font-weight: 700;
+}
